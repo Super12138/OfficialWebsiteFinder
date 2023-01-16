@@ -16,18 +16,20 @@
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto mdui-typo mdui-loaded">
     <div class="mdui-container">
         <h1>官方网站查找器</h1>
-        <p>请在下方文本框中输入要查找的网址名称（支持模糊搜索），然后点击“查找”按钮。</p>
+        <p>在下方文本框中输入要查找的网址名称或URL（支持模糊搜索），即可自动搜索（不区分大小写）</p>
+        <!--<p>点击网址所在的行即可复制网址</p>-->
         <div>
             <div class="mdui-textfield mdui-textfield-floating-label">
                 <label class="mdui-textfield-label">在这里输入想要查找网址的名称，例如：GitHub</label>
-                <input class="mdui-textfield-input" type="text">
+                <input class="mdui-textfield-input" type="text" id="input">
             </div>
-            <button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-hoverable mdui-ripple">查找</button>
+            <!--<button class="mdui-btn mdui-btn-block mdui-color-theme-accent mdui-hoverable mdui-ripple" id="find">查找</button>-->
         </div>
         <div>
             <h3>查找结果</h3>
+            <p>本表格为无规则散序排列，没有不尊重任何企业或网址<br>使用 <code>*</code> 包裹的网址在中国大陆境内无法访问</p>
             <div class="mdui-table-fluid">
-                <table class="mdui-table mdui-table-hoverable">
+                <table class="mdui-table mdui-table-hoverable" id="table">
                     <thead>
                         <tr>
                             <th>名称</th>
@@ -36,16 +38,28 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1</td>
-                            <td>Mark</td>
+                            <td>GitHub</td>
+                            <td>https://github.com/</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>Jacob</td>
+                            <td>PotPlayer</td>
+                            <td>http://potplayer.tv/ 或 *http://potplayer.daum.net/*</td>
                         </tr>
                         <tr>
-                            <td>3</td>
-                            <td>Larry the Bird</td>
+                            <td>百度搜索</td>
+                            <td>https://www.baidu.com/</td>
+                        </tr>
+                        <tr>
+                            <td>CCTV</td>
+                            <td>https://www.cctv.cn/</td>
+                        </tr>
+                        <tr>
+                            <td>IP Address</td>
+                            <td>https://www.ipaddress.com/</td>
+                        </tr>
+                        <tr>
+                            <td>Chat GPT</td>
+                            <td>https://chat.openai.com/</td>
                         </tr>
                     </tbody>
                 </table>
@@ -53,6 +67,7 @@
         </div>
     </div>
     <script src="js/mdui.min.js"></script>
+    <script src="js/search.js"></script>
 </body>
 
 </html>
