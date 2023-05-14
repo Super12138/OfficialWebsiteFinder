@@ -1,0 +1,22 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "icon": "github.svg"
+  },
+  {
+    "name": "华为",
+    "url": "https://www.huawei.com",
+    "icon": "huawei.svg"
+  },
+  {
+    "name": "Chat GPT",
+    "url": "https://chat.openai.com/",
+    "icon": ""
+  },
+  {
+    "name": "IP Address",
+    "url": "https://www.ipaddress.com/",
+    "icon": ""
+  }
+]

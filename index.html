@@ -7,7 +7,7 @@
     <meta name="force-rendering" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/mdui.css">
+    <link rel="stylesheet" href="css/mdui.min.css">
     <link rel="icon" href="icons/app-icons/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="icons/app-icons/apple-touch-icon.png">
     <title>官方网站查找器</title>
@@ -27,47 +27,46 @@
         </div>
         <div>
             <h3>查找结果</h3>
-            <p>本表格为无规则散序排列，没有不尊重任何企业或网址<br>使用 <code>*</code> 包裹的网址在中国大陆境内无法访问</p>
+            <p>本表格为无规则散序排列，没有不尊重任何企业或网址<br>网站名称前有 <code>*</code> 的目前在中国大陆境内无法访问</p>
             <div class="mdui-table-fluid">
                 <table class="mdui-table mdui-table-hoverable" id="table">
                     <thead>
                         <tr>
+                            <th>图标</th>
                             <th>名称</th>
                             <th>网址</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>GitHub</td>
-                            <td>https://github.com/</td>
-                        </tr>
+                        <!--
                         <tr>
                             <td>PotPlayer</td>
                             <td>http://potplayer.tv/ 或 *http://potplayer.daum.net/*</td>
                         </tr>
                         <tr>
-                            <td>华为</td>
-                            <td>https://www.huawei.com/</td>
-                        </tr>
-                        <tr>
                             <td>中央人民广播电视总台</td>
                             <td>https://www.cctv.cn/</td>
-                        </tr>
-                        <tr>
-                            <td>IP Address</td>
-                            <td>https://www.ipaddress.com/</td>
-                        </tr>
-                        <tr>
-                            <td>Chat GPT</td>
-                            <td>https://chat.openai.com/</td>
-                        </tr>
+                        </tr>-->
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
     <script src="js/mdui.min.js"></script>
-    <script src="js/search.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                    .register("service-worker.js")
+                    .then((registration) => {
+                        console.log("Service Worker 注册成功：", registration);
+                    })
+                    .catch((registrationError) => {
+                        console.error("Service Worker 注册失败：", registrationError);
+                    });
+            });
+        }
+    </script>
 </body>
 
 </html>
