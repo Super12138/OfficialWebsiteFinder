@@ -22,7 +22,7 @@ jobs:
           node-version: 18
       - run: npm install
       - name: Build
-        run: npm run build:prod&&cd dist&&sed -i 's/workbox-d249b2c8.js/OfficialWebsiteFinder\/workbox-d249b2c8.js/g' service-worker.js
+        run: npm run build:prod
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
