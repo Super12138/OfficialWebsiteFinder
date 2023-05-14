@@ -18,5 +18,15 @@
     "name": "IP Address",
     "url": "https://www.ipaddress.com/",
     "icon": ""
+  },
+  {
+    "name": "PotPlayer",
+    "url": "http://potplayer.tv/",
+    "icon": ""
+  },
+  {
+    "name": "中央人民广播电视总台",
+    "url": "https://www.cctv.cn/",
+    "icon": ""
   }
 ]
