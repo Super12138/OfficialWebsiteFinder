@@ -4,7 +4,7 @@
     "name": "官方网站查找器",
     "scope": "/",
     "display": "standalone",
-    "start_url": "/",
+    "start_url": "/OfficialWebsiteFinder",
     "short_name": "官网查找器",
     "theme_color": "#FFFFFF",
     "description": "快速找到官方网站",
