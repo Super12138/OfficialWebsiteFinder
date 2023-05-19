@@ -6,11 +6,11 @@
   },
   {
     "name": "华为",
-    "url": "https://www.huawei.com",
+    "url": "https://www.huawei.com/",
     "icon": "huawei.svg"
   },
   {
-    "name": "Chat GPT",
+    "name": "* Chat GPT",
     "url": "https://chat.openai.com/",
     "icon": ""
   },
@@ -27,6 +27,56 @@
   {
     "name": "中央人民广播电视总台",
     "url": "https://www.cctv.cn/",
+    "icon": ""
+  },
+  {
+    "name": "* Google",
+    "url": "https://www.google.com/",
+    "icon": ""
+  },
+  {
+    "name": "百度",
+    "url": "https://www.baidu.com/",
+    "icon": ""
+  },
+  {
+    "name": "Bing",
+    "url": "https://www.bing.com/",
+    "icon": ""
+  },
+  {
+    "name": "F 搜",
+    "url": "https://fsoufsou.com/",
+    "icon": ""
+  },
+  {
+    "name": "Microsoft",
+    "url": "https://www.microsoft.com/",
+    "icon": ""
+  },
+  {
+    "name": "HarmonyOS",
+    "url": "https://www.harmonyos.com/",
+    "icon": ""
+  },
+  {
+    "name": "Spacedesk",
+    "url": "https://www.spacedesk.net/",
+    "icon": ""
+  },
+  {
+    "name": "哔哩哔哩",
+    "url": "https://www.bilibili.com/",
+    "icon": ""
+  },
+  {
+    "name": "Unity（国际）",
+    "url": "https://unity.com/",
+    "icon": ""
+  },
+  {
+    "name": "Unity（国内）",
+    "url": "https://unity.cn/",
     "icon": ""
   }
 ]
