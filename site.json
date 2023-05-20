@@ -78,5 +78,150 @@
     "name": "Unity（国内）",
     "url": "https://unity.cn/",
     "icon": ""
+  },
+  {
+    "name": "Webpack",
+    "url": "https://webpack.js.org/",
+    "icon": ""
+  },
+  {
+    "name": "Vite",
+    "url": "https://vitejs.dev/",
+    "icon": ""
+  },
+  {
+    "name": "Vue.js",
+    "url": "https://vuejs.org/",
+    "icon": ""
+  },
+  {
+    "name": "VitePress",
+    "url": "https://vitepress.dev/",
+    "icon": ""
+  },
+  {
+    "name": "VuePress",
+    "url": "https://vuepress.vuejs.org/",
+    "icon": ""
+  },
+  {
+    "name": "React",
+    "url": "https://react.dev/",
+    "icon": ""
+  },
+  {
+    "name": "React Native",
+    "url": "https://reactnative.dev/",
+    "icon": ""
+  },
+  {
+    "name": "Angular",
+    "url": "https://angular.io/",
+    "icon": ""
+  },
+  {
+    "name": "jQuery",
+    "url": "https://jquery.com/",
+    "icon": ""
+  },
+  {
+    "name": "Electron",
+    "url": "https://www.electronjs.org/",
+    "icon": ""
+  },
+  {
+    "name": "NW.js",
+    "url": "https://nwjs.io/",
+    "icon": ""
+  },
+  {
+    "name": "Material Design",
+    "url": "https://material.io/",
+    "icon": ""
+  },
+  {
+    "name": "MDUI",
+    "url": "https://www.mdui.org/",
+    "icon": ""
+  },
+  {
+    "name": "LocalSend",
+    "url": "https://localsend.org/#/",
+    "icon": ""
+  },
+  {
+    "name": "Android 开发者（国内）",
+    "url": "https://developer.android.google.cn/",
+    "icon": ""
+  },
+  {
+    "name": "Android 开发者（国际）",
+    "url": "https://developer.android.com/",
+    "icon": ""
+  },
+  {
+    "name": "Android",
+    "url": "https://www.android.com/",
+    "icon": ""
+  },
+  {
+    "name": "Apple",
+    "url": "https://www.apple.com/",
+    "icon": ""
+  },
+  {
+    "name": "Apple（中国大陆）",
+    "url": "https://www.apple.com.cn/",
+    "icon": ""
+  },
+  {
+    "name": "Neat Download Manager",
+    "url": "https://www.neatdownloadmanager.com/",
+    "icon": ""
+  },
+  {
+    "name": "Free Download Manager",
+    "url": "https://www.freedownloadmanager.org/",
+    "icon": ""
+  },
+  {
+    "name": "Internet Download Manager",
+    "url": "https://www.internetdownloadmanager.com/",
+    "icon": ""
+  },
+  {
+    "name": "Calibre",
+    "url": "https://www.calibre-ebook.com/",
+    "icon": ""
+  },
+  {
+    "name": "蓝奏·云存储",
+    "url": "https://www.lanzou.com/",
+    "icon": ""
+  },
+  {
+    "name": "Firefox",
+    "url": "https://www.mozilla.org/firefox/new/",
+    "icon": ""
+  },
+  {
+    "name": "Visual Studio",
+    "url": "https://visualstudio.microsoft.com/",
+    "icon": ""
+  },
+  {
+    "name": "Visual Studio Code",
+    "url": "https://code.visualstudio.com/",
+    "icon": ""
+  },
+  {
+    "name": "Prettier",
+    "url": "https://prettier.io/",
+    "icon": ""
+  },
+  {
+    "name": "Reqable",
+    "url": "https://reqable.com/",
+    "icon": ""
   }
 ]
