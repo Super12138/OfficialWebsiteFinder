@@ -9,19 +9,24 @@ xhr.onreadystatechange = function () {
         const tbody = document.querySelector('tbody');
         sites.forEach(site => {
             const tr = document.createElement('tr');
-            const td1 = document.createElement('td');
+            // const td1 = document.createElement('td');
             const td2 = document.createElement('td');
             const td3 = document.createElement('td');
             const a = document.createElement('a');
+            
+            /*
             const img = document.createElement('img');
 
             td1.appendChild(img);
+            */
+
             td2.innerText = site.name;
             a.href = site.url;
             a.target = '_blank';
             a.innerText = site.url;
             td3.appendChild(a);
 
+            /*
             let iconurl = '';
             if (site.icon === "") {
                 iconurl = 'https://cdn.jsdelivr.net/gh/Super12138/OfficialWebsiteFinder-icons/icons/noicon.svg';
@@ -31,7 +36,10 @@ xhr.onreadystatechange = function () {
             img.src = iconurl;
             img.alt = site.name;
             img.className = 'mdui-img-fluid'
+            
             tr.appendChild(td1);
+            */
+
             tr.appendChild(td2);
             tr.appendChild(td3);
 
