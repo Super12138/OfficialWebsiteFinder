@@ -5,7 +5,7 @@
     "icon": "github.svg"
   },
   {
-    "name": "华为",
+    "name": "HUAWEI 华为",
     "url": "https://www.huawei.com/",
     "icon": "huawei.svg"
   },
@@ -222,6 +222,106 @@
   {
     "name": "Reqable",
     "url": "https://reqable.com/",
+    "icon": ""
+  },
+  {
+    "name": "HONOR 荣耀",
+    "url": "https://www.hihonor.com/",
+    "icon": ""
+  },
+  {
+    "name": "Xiaomi 小米",
+    "url": "https://www.mi.com/",
+    "icon": ""
+  },
+  {
+    "name": "OPPO 欧珀",
+    "url": "https://www.oppo.com/",
+    "icon": ""
+  },
+  {
+    "name": "vivo 维沃",
+    "url": "https://www.vivo.com/",
+    "icon": ""
+  },
+  {
+    "name": "NOKIA 诺基亚",
+    "url": "https://www.nokia.com/",
+    "icon": ""
+  },
+  {
+    "name": "京东",
+    "url": "https://www.jd.com/",
+    "icon": ""
+  },
+  {
+    "name": "淘宝",
+    "url": "https://www.taobao.com/",
+    "icon": ""
+  },
+  {
+    "name": "阿里巴巴集团",
+    "url": "https://www.alibabagroup.com/",
+    "icon": ""
+  },
+  {
+    "name": "阿里云盘",
+    "url": "https://www.aliyundrive.com/",
+    "icon": ""
+  },
+  {
+    "name": "阿里1688",
+    "url": "https://www.1688.com/",
+    "icon": ""
+  },
+  {
+    "name": "Tencent 腾讯",
+    "url": "https://www.tencent.com/",
+    "icon": ""
+  },
+  {
+    "name": "腾讯网",
+    "url": "https://www.qq.com/",
+    "icon": ""
+  },
+  {
+    "name": "微信",
+    "url": "https://weixin.qq.com/",
+    "icon": ""
+  },
+  {
+    "name": "有道",
+    "url": "https://youdao.com/",
+    "icon": ""
+  },
+  {
+    "name": "有道翻译",
+    "url": "https://fanyi.youdao.com/",
+    "icon": ""
+  },
+  {
+    "name": "百度翻译",
+    "url": "https://fanyi.baidu.com/",
+    "icon": ""
+  },
+  {
+    "name": "* Google 翻译",
+    "url": "https://youdao.com/",
+    "icon": ""
+  },
+  {
+    "name": "腾讯翻译君",
+    "url": "https://fanyi.qq.com/",
+    "icon": ""
+  },
+  {
+    "name": "F 翻译",
+    "url": "https://fsoufsou.com/translate",
+    "icon": ""
+  },
+  {
+    "name": "DeepL翻译",
+    "url": "https://www.deepl.com/translator",
     "icon": ""
   }
 ]
