@@ -23,6 +23,7 @@ jobs:
       - run: npm install
       - name: Build
         run: npm run build:prod
+        run: sed -i 's?\.\/workbox-afb8f5db?\.\/OfficialWebsiteFinder\/workbox-afb8f5db?g' dist/service-worker.js
       - uses: actions/configure-pages@v2
       - uses: actions/upload-pages-artifact@v1
         with:
