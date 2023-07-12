@@ -152,17 +152,17 @@
   {
     "name": "Android 开发者（国内）",
     "url": "https://developer.android.google.cn/",
-    "icon": ""
+    "icon": "android.svg"
   },
   {
     "name": "* Android 开发者（国际）",
     "url": "https://developer.android.com/",
-    "icon": ""
+    "icon": "android.svg"
   },
   {
     "name": "* Android",
     "url": "https://www.android.com/",
-    "icon": ""
+    "icon": "android.svg"
   },
   {
     "name": "Apple",
@@ -350,33 +350,33 @@
     "icon": ""
   },
   {
-    "name": "",
-    "url": "",
+    "name": "TurboWarp",
+    "url": "https://turbowarp.org/",
     "icon": ""
   },
   {
-    "name": "",
-    "url": "",
+    "name": "Xmind（中国）",
+    "url": "https://xmind.cn/",
     "icon": ""
   },
   {
-    "name": "",
-    "url": "",
+    "name": "Xmind（国际）",
+    "url": "https://xmind.app/",
     "icon": ""
   },
   {
-    "name": "",
-    "url": "",
+    "name": "知乎",
+    "url": "https://www.zhihu.com/",
     "icon": ""
   },
   {
-    "name": "",
-    "url": "",
+    "name": "百度地图",
+    "url": "https://map.baidu.com/",
     "icon": ""
   },
   {
-    "name": "",
-    "url": "",
+    "name": "高德地图",
+    "url": "https://www.amap.com/",
     "icon": ""
   }
 ]
